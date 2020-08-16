@@ -1,0 +1,4 @@
+- SMTP server supports extra commands RSET and NOOP, IMAP4 supports extra commands NOOP and SELECT.
+- Both POP3 and IMAP4 clients have GUIs. GUI requires python3 module tkinter, which is included by default in most python3 installations. 
+- SSL/TLS support for POP3. SSL/TLS requires the use of the included .crt and .key files as both client and server are validated.
+  Files should be kept in the same directory as the server.py and *_client.py files.
